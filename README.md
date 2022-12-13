@@ -1,24 +1,25 @@
-# README
+#### To setup app run: `make setup`
+#### To drop database run: `make drop`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### To start app run: `make`
+#### To run tests: `make test`
 
-Things you may want to cover:
+## SlotBooker
 
-* Ruby version
+As database used SQLite3. When you run the `make setup` it will also seed some booked slots, but only for today (day when you run the comand)
 
-* System dependencies
 
-* Configuration
+## TODO aka needs to improved aka known issues
+0. Divide the front to other repo, not the best idea to have everything in one repo, as here
+1. Currently System allows to book time slot in scope of one day, the start and the end times should be in one day
+2. Currently system ignores timezones
+3. Some other minor issues, which I wont tell, possibly will fix them yet)
+4. Add tests for controller and FE part
+5. ...
 
-* Database creation
+![image](https://user-images.githubusercontent.com/3147902/207453766-d3ea9277-b2f9-46ec-a054-8880dcdac3b9.png)
 
-* Database initialization
+Click the link below to watch the video:
+ https://www.awesomescreenshot.com/video/13265336?key=0e1a64d4c6957adfb878a2911f033f08
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* a lot to explain how it works, will be easier to talk through it 
